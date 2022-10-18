@@ -37,7 +37,7 @@ public class TwoPlayerGame {
         switch (result) {
             case WIN:
                 return no;
-            case LOOSE:
+            case LOSE:
                 return 3 - no;
             case DRAW:
                 return 0;
